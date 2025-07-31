@@ -155,7 +155,7 @@ function UserListing(){
       <div className="p-4">
       <h2 className="text-2xl font-semibold mb-4">Job Applications</h2>
       <div className="overflow-x-auto rounded-lg border w-full">
-       <div className="flex flex-wrap gap-4 mb-4">
+       <div className="flex flex-wrap  justify-end gap-4 mb-4">
   <select
     className="border px-3 py-1 rounded"
     value={filters.exp}
